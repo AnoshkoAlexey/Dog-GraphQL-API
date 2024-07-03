@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import com.udacity.doggraphqlapi.repository.DogRepository;
+import com.udacity.doggraphqlapi.exception.DogNotFoundException;
 
 
 @Component
