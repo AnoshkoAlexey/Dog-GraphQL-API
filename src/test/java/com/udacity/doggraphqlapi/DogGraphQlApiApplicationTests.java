@@ -1,4 +1,4 @@
-package com.udacity.Dog.GraphQL.API;
+package com.udacity.doggraphqlapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
