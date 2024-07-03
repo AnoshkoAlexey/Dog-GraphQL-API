@@ -1,6 +1,12 @@
-package com.udacity.graphql.exception;
+package com.udacity.doggraphqlapi.exception;
 
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+
+import graphql.ErrorType;
+import graphql.GraphQLError;
+import graphql.language.SourceLocation;
 
 public class DogNotFoundException extends RuntimeException implements GraphQLError {
     
